@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80vw;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  margin: auto;
+}
+
+.ticket {
+  margin: auto;
+  padding-top: 50px;
+  width: 90%;
+  height: 50vw;
+  background-image: url(../pictures/png/atlas.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+.ticket .ticket_title {
+  font-family: "KirnBerg";
+  font-size: 5.5vw;
+  line-height: 3vw;
+  margin-bottom: 3vw;
+}
+.ticket .ticket_text {
+  font-size: 1.2vw;
+  line-height: 1.3vw;
+  margin-bottom: 1.3vw;
+}
+.ticket .ticket_img {
+  width: 55%;
+}
+.ticket .ticket_block_taimer {
+  margin-top: 2vw;
+}
+.ticket .ticket_block_taimer .ticket_taimer {
+  margin-top: -12vw;
+  margin-left: -2vw;
+}
+.ticket .timer {
+  width: 30%;
+  margin: auto;
+}
+.ticket .timer__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.ticket .timer__items .timer__item {
+  font-size: 3vw;
+}
+.ticket .timer__items .timer__item:not(:last-child)::after {
+  content: " :";
+  font-size: 3vw;
+}
+
+.place {
+  text-align: center;
+  padding: 30px;
+}
+.place .place_subtitle {
+  font-family: "KirnBerg";
+  font-size: 5.5vw;
+  line-height: 3vw;
+  margin-bottom: 2vw;
+}
+.place .place_text {
+  font-size: 1.2vw;
+  line-height: 1.3vw;
+  margin-bottom: 3vw;
+}
+.place .place_map {
+  width: 80%;
+  height: 30vw;
+}
+
+.detail {
+  padding-top: 8vw;
+  width: 100%;
+  height: 40vw;
+  background-image: url(../pictures/png/atlas.png);
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.detail .detail_subtitle {
+  font-family: "KirnBerg";
+  font-size: 5.5vw;
+  line-height: 3vw;
+  margin-bottom: 3vw;
+}
+.detail .detail_text {
+  font-size: 1.2vw;
+  line-height: 1.3vw;
+  margin-bottom: 3vw;
+}
+
+.contact {
+  padding-top: 8vw;
+  width: 100%;
+  height: 50vw;
+  background-image: url(../pictures/png/atlas.png);
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.contact .contact_header {
+  font-family: "KirnBerg";
+  font-size: 5.5vw;
+  line-height: 3vw;
+  margin-bottom: 3vw;
+}
+.contact .contact_number {
+  font-size: 1.2vw;
+  line-height: 1.3vw;
+  margin-bottom: 2vw;
+}
+.contact .contact_title {
+  font-family: "KirnBerg";
+  font-size: 7.5vw;
+  line-height: 4vw;
+  line-height: 6vw;
+  margin-top: 5vw;
+}
+.contact .contact_number_png {
+  width: 3vw;
+}

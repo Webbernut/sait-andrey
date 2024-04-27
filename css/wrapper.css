@@ -1,0 +1,13 @@
+* {
+  color: #4a312c;
+}
+
+@font-face {
+  font-family: "KirnBerg";
+  src: url("../fonts/adinekirnberg.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  background-color: #F8F6F4;
+}

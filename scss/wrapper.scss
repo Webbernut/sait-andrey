@@ -1,0 +1,16 @@
+
+$text_height_subtitle: 25px;
+$text_height_default_text: 25px;
+*{
+    color: #4a312c;
+}
+@font-face {
+    font-family: "KirnBerg"; 
+    src: url("../fonts/adinekirnberg.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+body{
+    background-color: #F8F6F4;
+}
