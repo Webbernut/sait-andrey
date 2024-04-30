@@ -1,0 +1,26 @@
+.container {
+  width: 80vw;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  margin: auto;
+}
+
+.header_block {
+  width: 100%;
+  background-image: url(../pictures/png/atlas.png);
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+.header_block .header_block_img {
+  width: 13vw;
+}
+.header_block .header_block_text {
+  margin-top: 20vw;
+  font-family: "KirnBerg";
+  font-size: 7.5vw;
+  line-height: 4vw;
+}
